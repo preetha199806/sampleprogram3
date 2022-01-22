@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style8.css">
+
+    <script src="./assets/js/form2.js"></script>
+</head> 
+<body>
+    <form name="Form" id="s1" action="traversary.html" onsubmit="return validateForm()">
+        <img src="./assets/images/user.png" class="user" >
+
+    <h2>Register Form</h2>
+    <div class="box">
+         <label>First Name</label>
+         <input type="text" name="firstname" id="firstname">
+<div class="error " id="firstnameErr"></div>
+
+<div class="box">
+    <label>Last Name</label>
+    <input type="text" name="lastname" id="lastname">
+<div class="error " id="lastnameErr"></div>
+
+
+
+<div class="box">
+    <label>Email Address</label>
+    <input type="email" name="email" id="email">
+<div class="error " id="emailErr"></div>
+
+
+<div class="box">
+    <label>Mobile Number</label>
+    <input type="number" name="mobile" id="mobile">
+<div class="error " id="mobileErr"></div>
+
+<div class ="box">
+    <label>password</label>
+    <input type ="password" name="password" id="password">
+<div class="error " id="passwordErr" ></div>
+
+
+
+
+
+<!-- <div class="box">
+    <label>Country</label>
+    
+    <select name="country" id="country">
+        <option value="">Value</option>
+        <option value="">India</option>
+        <option value="">London</option>
+
+    </select>
+<div class="error " id="countryErr"></div>
+ </div> -->
+    
+ <div class="box">
+    <label>Gender</label>
+<div class="form-inline" id="gender">
+<label for=""><input type="radio" name = "gender" value="Male">Male</label>
+<label for=""><input type="radio" name = "gender" value="Female">Female</label>
+</div>
+    <div class="error" id="genderErr"></div>
+<div class="box">
+<input type="submit" value="Submit"/>
+</div>
+    </form>
+</body>
+</html>

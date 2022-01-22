@@ -1,0 +1,57 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+.bg-teal, .btn-teal{
+    background-color: teal !important;
+}
+.text-teal{
+color: teal !important;
+}
+.carousel-caption h5{
+   font-size: 25px;
+}
+input[type="text"], input[type="password"], input[type="email"]{
+    border: none;
+    /* below text also space color using */
+    border-bottom: 1px solid #fff;
+    outline: none;
+    height: 40px;
+    color: #673ab7;
+    font-size: 16px;
+    margin-left: 150px;
+    text-align: center;
+}
+input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #2196f3;
+    color: #fff;
+    font-size: 18px;
+border-radius: 20px;
+margin-left: 150px;
+width: 40%;
+margin-top: 15px;
+}
+input[type="submit"]:hover{
+    cursor: pointer;
+    background: #0097a7;
+}
+.card-body{
+    align-items: center;
+}
+.box{
+    background: rgba(255, 255, 255,0.4);
+box-shadow: -1px 4px 28px 0px rgba(0, 0, 0, 0.75);
+    top: 50%;
+    left: 30%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    margin-left: 300px;
+    width: 20%;
+}
